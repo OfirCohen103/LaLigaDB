@@ -6,7 +6,6 @@
     <title>noder?</title>
 </head>
 <body>
-{% for i in response %}
 <table>
   <thead>
     <tr>
@@ -16,15 +15,14 @@
     </tr>
   </thead>
   <tbody>
-  {% for key,value in i.items() %}
+  {% for i in response %}
   <tr>
-    <td>{{key}}</td>
-    <td>{{value[0]}}</td>
-    <td>{{value[1]}}</td>
+    <td>{{i[0]}}</td>
+    <td>{{i[1]}}</td>
+    <td>{{i[2]}}</td>
   </tr>
   {% endfor %}
   </tbody>
 </table>
-{% endfor %}
 </body>
 </html>

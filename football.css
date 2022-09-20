@@ -18,9 +18,15 @@ input[type=text] {
   background-color: #f1f1f1;
   width: 100%;
 }
-input[type=submit] {
+input[type=button] {
   background-color: DodgerBlue;
-  color: #fff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 .autocomplete-items {
   position: absolute;
