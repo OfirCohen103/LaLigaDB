@@ -1,25 +1,27 @@
 * {box-sizing: border-box;}
 body{
-    background-color: powderblue;
-    font: 16px Arial;
+    background-image: url("background.jpg");
 }
 .autocomplete {
+  text-align: center;
   /*the container must be positioned relative:*/
   position: relative;
   display: inline-block;
 }
 input {
+  align-content: center;
   border: 1px solid transparent;
   background-color: #f1f1f1;
   padding: 10px;
   font-size: 16px;
 }
 input[type=text] {
+  align-content: center;
   background-color: #f1f1f1;
   width: 100%;
 }
 input[type=button] {
-  background-color: DodgerBlue;
+  background-color: black;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -54,9 +56,22 @@ input[type=button] {
   background-color: DodgerBlue !important;
   color: #ffffff;
 }
+.what{
+  text-align: center;
+}
 h1{
-    color: red;
+  color: black;
+  font-size: 60px;
+  -webkit-text-stroke: 1px white;
+  text-align: center;
 }
 p{
-    color: black;
+  text-align: center;
+  font-size: 30px;
+  //-webkit-text-stroke: 1px white;
+  color: white;
+}
+
+span{
+  background-color: black;
 }

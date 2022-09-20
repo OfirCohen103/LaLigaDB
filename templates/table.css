@@ -3,9 +3,13 @@ td {
 }
 table, td, th{
     border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-color: white;
 }
 
 table{
     border-collapse: collapse;
     width: 100%;
+    border-color: white;
 }

@@ -6,14 +6,17 @@
     <title>Noder Neder</title>
 </head>
 <body>
-<h1>football stats</h1>
-<p>ayy lmao</p>
+<h1>La Liga Stats Season 2021-22</h1>
+<p><span>Enter the name of the team you want to see</span></p>
+<p><span>Important goals = goals the changed the state of the game</span></p>
 <form autocomplete="off">
+    <div class="what">
 <div class="autocomplete" style="width:300px;">
     <input id="myInput" type="text" name="myTeam" placeholder="Team" onkeydown="enterSearch(this)">
 </div>
     <input type="button" value="Submit using API request" onclick = "getStats(document.getElementById('myInput').value)">
     <input type="button" value="Submit using DB" onclick = "statsFromDB(document.getElementById('myInput').value)">
+    </div>
 </form>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src=Football.js></script>
