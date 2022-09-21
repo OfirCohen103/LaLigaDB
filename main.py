@@ -34,7 +34,7 @@ def get_stats_db():
     conn.close()
     return render_template("indexDB.html",response=stats)
 
-@app.route("/matches", methods=['POST'])
+@app.route("/teams", methods=['POST'])
 def get_teams():
     url_to_send=Handler.url_address_for_teams
     data=requests.get(url_to_send,headers=Handler.HEADERS_FOR_TEAMS).json()
