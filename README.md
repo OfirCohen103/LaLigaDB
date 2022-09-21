@@ -16,7 +16,7 @@ Install the requirements necessary using this command:
 
 ```bash
 cd LaLigaDB
-pip3 install -r requirements.text
+pip3 install -r requirements.txt
 ```
 
 ## How to use:
