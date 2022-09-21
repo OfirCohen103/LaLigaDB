@@ -14,7 +14,7 @@
 <div class="autocomplete" style="width:300px;">
     <input id="myInput" type="text" name="myTeam" placeholder="Team" onkeydown="enterSearch(this)">
 </div>
-    <input type="button" value="Submit using API request" onclick = "getStats(document.getElementById('myInput').value)">
+    <input type="button" value="Submit using API request (slower)" onclick = "getStats(document.getElementById('myInput').value)">
     <input type="button" value="Submit using DB" onclick = "statsFromDB(document.getElementById('myInput').value)">
     </div>
 </form>
